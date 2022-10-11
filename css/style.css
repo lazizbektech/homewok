@@ -29,7 +29,7 @@ p {
     opacity: 0.5;
 }
 
-.toggle-container label {
+.doggle-container label {
     background-image: linear-gradient(to right,
             hsl(236, 72%, 79%),
             hsl(237, 63%, 64%));
@@ -42,7 +42,7 @@ p {
     width: 60px;
 }
 
-.toggle-container label .ball {
+.doggle-container label .ball {
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
@@ -53,16 +53,16 @@ p {
     transition: transform 0.3s ease;
 }
 
-.toggle-container input {
+.doggle-container input {
     position: absolute;
     left: -9999px;
 }
 
-.toggle-container input:checked+label .ball {
+.doggle-container input:checked+label .ball {
     transform: translateX(30px);
 }
 
-.toggle-container label:hover {
+.doggle-container label:hover {
     background: #C5C7F4;
 }
 
